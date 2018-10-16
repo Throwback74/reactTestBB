@@ -33,23 +33,6 @@ function Result() {
   );
 };
 
-// function Response({ hit }) {
-//   console.log({hit});
-//   return (    
-//   <div className="hit" style={{ marginTop: '10px' }}>
-//     <div className="hit-image">
-//       <img alt={hit.name} src={`${hit.thumbURL}`}/>
-//     </div>
-//     <div className="hit-content">
-//       <div className="hit-price">${hit && hit.prices ? hit.prices[0].cost : null}/{hit.prices[0].unit}</div>
-//       <span className="hit-name">
-//         <Highlight attribute="name" hit={hit} />
-//       </span>
-//     </div>
-//   </div>
-//   );
-// };${hit.prices[0].cost}
-
 function isUndefined({ hit }) {
   console.log("checking", {hit});
   if(`${hit.prices[0].cost}`) {
@@ -72,7 +55,6 @@ function Response({ hit }) {
     </div>
     <div className="hit-content">
       {Prices}
-      {/* <div className="hit-price">${hit.prices[0].cost ? hit.prices[0].cost : ''}/{hit.prices[0].unit}</div>*/}
       <span className="hit-name"> 
         <Highlight attribute="name" hit={hit} />
       </span>
