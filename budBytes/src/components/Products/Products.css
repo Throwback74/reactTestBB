@@ -1,0 +1,66 @@
+.bbImage {
+  background-image: url(../../Images/BB_Home_Splash_BG_V2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ais-Hits-list, .ais-Pagination-link {
+  background-color: rgba(69, 69, 69, 0.3);
+  color: #fff;
+}
+
+.ais-Pagination-item:not([disabled]), .ais-Pagination-item--page, .ais-Pagination-link {
+  color: #10205d !important;
+}
+
+.ais-Pagination-item--disabled > .ais-Pagination-link {
+  opacity: .6;
+  cursor: not-allowed;
+  color: #2741a2 !important;
+}
+
+.ais-SearchBox {
+  margin-bottom: 0.8em;
+}
+
+.ais-ClearRefinements {
+  text-align: right;
+}
+
+.ais-Panel-header {
+  color: #24ca6e;
+}
+
+.footerCopyright {
+  padding-bottom: 3em;
+}
+
+.github {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.footerLink {
+  display: inline !important;
+  padding: 0 !important;
+  color: #308c59 !important;
+}
+
+.footerLink:hover {
+  color: #68e6a0 !important;
+}
+
+@media screen and (max-width: 1024px){
+.navbar, .navbar-menu, .navbar-start, .navbar-end {
+    align-items: stretch;
+    display: flex;
+    margin-left: auto;
+}
+.navbar-menu {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.hero.is-success .navbar-menu {
+  background-color: rgba(35, 209, 96, 0);
+}
+}

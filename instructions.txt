@@ -1,0 +1,23 @@
+Using the provided JSON build a single page application with ReactJS.
+
+The application should feature one page with a search bar at the top and a product grid view below the search bar.  The search bar should work to find products based on the genetics, name, strain, brand or vendor fields.  Each item in the grid view should include at least the product name, product image and prices.
+
+- App must use Babel or Typescript with webpack.
+- You can use boilerplates and libraries as you'd like.
+- You only have to show/search products from the "Flower" categoryName field.
+- The ui should be functional and attractive.
+- Slack is installed and running if you have any questions during the test.  Send a direct message to "Scott Lott".
+
+
+Steps:
+
+JSON > JS Object
+JS Obj filter method to find all items with categoryName: Flower - 
+Research React search library (search params will be genetics, name, strain, brand or vendor)
+Responsive Item Grid, use thumbURL or imageURL, name, prices[0].cost / prices[0].unit
+
+
+
+
+
+
